@@ -78,33 +78,28 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                In the heart of Kajola, where tradition meets innovation, we're launching an extraordinary event that transcends boundaries. Xhibit ( coined from Exhibition) is not just a tech conference; it's a movement aimed at empowering the youth and transforming our community through knowledge, exposure, and collaboration.
+               <b>Xhibit 1.0 - Bridging Horizons</b>, a groundbreaking event aimed at transforming the lives of youth in Oke-ogun and its environs. This initiative is not just a tech conference but a movement that seeks to empower, educate, and inspire the next generation of innovators and leaders in technology and entrepreneurship.
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
-                <div
-                  className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
-                  data-aos="zoom-y-out"
-                  data-aos-delay={450}
-                >
-                  <a
-                    className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
-                  >
-                    <span className="relative inline-flex items-center">
-                    Register for Xhibit 1.0
-                      <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                        -&gt;
-                      </span>
-                    </span>
-                  </a>
-                  {/* <a
-                    className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="#0"
-                  >
-                    Learn More
-                  </a> */}
-                </div>
-              </div>
+  <div
+    className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
+    data-aos="zoom-y-out"
+    data-aos-delay={450}
+  >
+    <a
+      className="btn group mb-4 w-full bg-[#FFBF00] text-white shadow hover:bg-[#FFBF00] sm:mb-0 sm:w-auto"
+      href="#0"
+    >
+      <span className="relative inline-flex items-center">
+        Register for Xhibit 1.0
+        <span className="ml-1 tracking-normal transition-transform group-hover:translate-x-0.5">
+          -&gt;
+        </span>
+      </span>
+    </a>
+  </div>
+</div>
+
             </div>
           </div>
           {/* Hero image */}

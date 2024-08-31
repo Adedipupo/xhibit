@@ -14,7 +14,7 @@ export default function FeaturesPlanet() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-You are about to experience the best tech even in Kajola
+You are about to experience the best tech event in Kajola
             </h2>
           </div>
           {/* Planet */}
@@ -75,7 +75,7 @@ You are about to experience the best tech even in Kajola
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-yellow-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -91,7 +91,7 @@ You are about to experience the best tech even in Kajola
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-yellow-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -107,7 +107,7 @@ You are about to experience the best tech even in Kajola
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-yellow-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -127,7 +127,7 @@ You are about to experience the best tech even in Kajola
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-yellow-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -143,7 +143,7 @@ You are about to experience the best tech even in Kajola
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-yellow-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -161,7 +161,7 @@ You are about to experience the best tech even in Kajola
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-yellow-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}

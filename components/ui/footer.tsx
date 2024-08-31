@@ -15,13 +15,13 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; Cruip.com - All rights reserved.
+              &copy; Xhibit-Central - All rights reserved.
             </div>
           </div>
 
           {/* 2nd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h3 className="text-sm font-medium">Product</h3>
+            {/* <h3 className="text-sm font-medium">Product</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -63,12 +63,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   Our method
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           {/* 3rd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h3 className="text-sm font-medium">Company</h3>
+            {/* <h3 className="text-sm font-medium">Company</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -110,12 +110,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   Financial statements
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           {/* 4th block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h3 className="text-sm font-medium">Resources</h3>
+            {/* <h3 className="text-sm font-medium">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -141,7 +141,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   Report a vulnerability
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           {/* 5th block */}
@@ -167,30 +167,35 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 <Link
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
                   href="#0"
-                  aria-label="Medium"
+                  aria-label="Instagram"
                 >
-                  <svg
-                    className="h-8 w-8 fill-current"
-                    viewBox="0 0 32 32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M23 8H9a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1Zm-1.708 3.791-.858.823a.251.251 0 0 0-.1.241V18.9a.251.251 0 0 0 .1.241l.838.823v.181h-4.215v-.181l.868-.843c.085-.085.085-.11.085-.241v-4.887l-2.41 6.131h-.329l-2.81-6.13V18.1a.567.567 0 0 0 .156.472l1.129 1.37v.181h-3.2v-.181l1.129-1.37a.547.547 0 0 0 .146-.472v-4.749a.416.416 0 0 0-.138-.351l-1-1.209v-.181H13.8l2.4 5.283 2.122-5.283h2.971l-.001.181Z"></path>
-                  </svg>
+<svg
+  className="h-8 w-8 fill-current"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="#9EE2D6"
+>
+  <path d="M12 0c-3.2 0-3.584.012-4.85.07-1.256.058-2.12.25-2.868.53a5.78 5.78 0 0 0-2.098 1.37A5.78 5.78 0 0 0 .78 4.938c-.28.748-.472 1.612-.53 2.868C.192 9.072.18 9.456.18 12c0 2.544.012 2.928.07 4.194.058 1.256.25 2.12.53 2.868a5.78 5.78 0 0 0 1.37 2.098 5.78 5.78 0 0 0 2.098 1.37c.748.28 1.612.472 2.868.53C8.416 23.808 8.8 23.82 12 23.82c3.2 0 3.584-.012 4.85-.07 1.256-.058 2.12-.25 2.868-.53a5.78 5.78 0 0 0 2.098-1.37 5.78 5.78 0 0 0 1.37-2.098c.28-.748.472-1.612.53-2.868.058-1.266.07-1.65.07-4.85 0-3.2-.012-3.584-.07-4.85-.058-1.256-.25-2.12-.53-2.868a5.78 5.78 0 0 0-1.37-2.098 5.78 5.78 0 0 0-2.098-1.37c-.748-.28-1.612-.472-2.868-.53C15.584.192 15.2.18 12 .18c-3.2 0-3.584.012-4.85.07-1.256.058-2.12.25-2.868.53a5.78 5.78 0 0 0-2.098 1.37A5.78 5.78 0 0 0 .78 4.938c-.28.748-.472 1.612-.53 2.868C.192 9.072.18 9.456.18 12c0 2.544.012 2.928.07 4.194.058 1.256.25 2.12.53 2.868a5.78 5.78 0 0 0 1.37 2.098 5.78 5.78 0 0 0 2.098 1.37c.748.28 1.612.472 2.868.53 1.266.058 1.65.07 4.85.07s3.584-.012 4.85-.07c1.256-.058 2.12-.25 2.868-.53a5.78 5.78 0 0 0 2.098-1.37 5.78 5.78 0 0 0 1.37-2.098c.28-.748.472-1.612.53-2.868.058-1.266.07-1.65.07-4.85s-.012-3.584-.07-4.85c-.058-1.256-.25-2.12-.53-2.868a5.78 5.78 0 0 0-1.37-2.098 5.78 5.78 0 0 0-2.098-1.37c-.748-.28-1.612-.472-2.868-.53-1.266-.058-1.65-.07-4.85-.07zm0 5.82c-3.414 0-6.18 2.766-6.18 6.18s2.766 6.18 6.18 6.18 6.18-2.766 6.18-6.18-2.766-6.18-6.18-6.18zm0 10.18a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-9.75a1.44 1.44 0 1 1 0-2.88 1.44 1.44 0 0 1 0 2.88z"/>
+</svg>
+
                 </Link>
               </li>
               <li>
                 <Link
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
                   href="#0"
-                  aria-label="Github"
+                  aria-label="Facebook"
                 >
-                  <svg
-                    className="h-8 w-8 fill-current"
-                    viewBox="0 0 32 32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z"></path>
-                  </svg>
+<svg
+  className="h-8 w-8 fill-current"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="#9EE2D6"
+>
+  <path d="M12 2.04c-5.523 0-10 4.477-10 10 0 5.004 3.664 9.128 8.437 9.877v-6.993H7.898v-2.884h2.539v-2.19c0-2.507 1.49-3.894 3.772-3.894 1.094 0 2.237.196 2.237.196v2.464h-1.258c-1.241 0-1.626.771-1.626 1.562v1.862h2.777l-.444 2.884h-2.333v6.993C18.336 21.168 22 17.044 22 12.04c0-5.523-4.477-10-10-10z"/>
+</svg>
+
+
                 </Link>
               </li>
             </ul>

@@ -40,7 +40,7 @@ export default function Header() {
             </li> */}
             <li>
               <Link
-                href="/signup"
+                href="/#"
                 className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900"
               >
                 Register for Xhibit 1.0
